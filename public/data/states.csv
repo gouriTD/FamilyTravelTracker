@@ -1,0 +1,37 @@
+id,state_code,state_name
+1,IN-AN,Andaman and Nicobar Islands
+2,IN-AP,Andhra Pradesh
+3,IN-AR,Arunachal Pradesh
+4,IN-AS,Assam
+5,IN-BR,Bihar
+6,IN-CH,Chandigarh
+7,IN-CT,Chhattisgarh
+8,IN-DD,Daman and Diu
+9,IN-DL,Delhi
+10,IN-DN,Dadra and Nagar Haveli
+11,IN-GA,Goa
+12,IN-GJ,Gujarat
+13,IN-HP,Himachal Pradesh
+14,IN-HR,Haryana
+15,IN-JH,Jharkhand
+16,IN-JK,Jammu and Kashmir
+17,IN-KA,Karnataka
+18,IN-KL,Kerala
+19,IN-LD,Lakshadweep
+20,IN-MH,Maharashtra
+21,IN-ML,Meghalaya
+22,IN-MN,Manipur
+23,IN-MP,Madhya Pradesh
+24,IN-MZ,Mizoram
+25,IN-NL,Nagaland
+26,IN-OR,Odisha
+27,IN-PB,Punjab
+28,IN-PY,Puducherry
+29,IN-RJ,Rajasthan
+30,IN-SK,Sikkim
+31,IN-TG,Telangana
+32,IN-TN,Tamil Nadu
+33,IN-TR,Tripura
+34,IN-UP,Uttar Pradesh
+35,IN-UT,Uttarakhand
+36,IN-WB,West Bengal

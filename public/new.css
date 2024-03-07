@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.color-pallette{
+    margin-bottom: 20px;
+}
+
+input[type='radio']{
+    display: none;
+}
+
+input[type="text"]{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    min-width: 300px;
+}
+input[type="text"]:focus{
+    outline: none;
+    border: none;
+}
+
+label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+label span{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+input[type='radio']:active + label span{
+    transform: scale(0.95);
+}
+
+input[type='radio']:checked + label span{
+    border-radius: 2px;
+    border: 2px solid gold;
+}
+
+label span.red{
+    background-color: red;
+}
+
+label span.green{
+    background-color: green;
+}
+
+label span.yellowgreen{
+    background-color: yellowgreen;
+}
+
+label span.blue{
+    background-color: blue;
+}
+
+label span.purple{
+    background-color: purple;
+}
+
+label span.yellow{
+    background-color: yellow;
+}
+
+label span.pink{
+    background-color: pink;
+}
+
+label span.violet{
+    background-color: violet;
+}
+label span.orange{
+    background-color: orange;
+}
+

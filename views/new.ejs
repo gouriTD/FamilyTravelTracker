@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Member</title>
+    <link rel="stylesheet" href="/new.css">
+</head>
+<body>
+    <form action="/add" method="post">
+        <h1>Add a Family Member</h1>
+        <p>What's your name?</p>
+        <input type="text" name="member" autofocus placeholder="<%= locals.error ? error : 'member-name'%>" required/>
+        <p>Pick a color:</p>
+        <div class="color-pallette">
+            <input type="radio" name="color" id="red" value="red" required/>
+            <label for="red"><span class="red"></span></label>
+
+            <input type="radio" id="green" value="green" name="color" required/>
+            <label for="green"><span class="green"></span></label>
+
+           <input type="radio" name="color" id="blue" value="blue" required/>
+            <label for="blue"><span class="blue"></span></label>
+
+            <input type="radio" name="color" id="purple" value="purple" required/>
+            <label for="purple"><span class="purple"></span></label>
+
+           <input type="radio" id="pink" name="color" value="pink" required/>
+           <label for="pink"><span class="pink"></span></label>
+
+           <input type="radio" id="yelloe" name="color" value="yellow" required/>
+           <label for="yellow"><span class="yellow"></span></label>
+
+           <input type="radio" id="violet" name="color" value="violet" required/>
+           <label for="violet"><span class="violet"></span></label>
+
+           <input type="radio" id="orange" name="color" value="orange" required/>
+           <label for="orange"><span class="orange"></span></label>
+
+           <input type="radio" id="yellowgreen" name="color" value="yellowgreen" required/>
+           <label for="yellowgreen"><span class="yellowgreen"></span></label>
+    
+        </div>
+        <button type="submit">ADD</button>
+    </form>
+</body>
+</html>
